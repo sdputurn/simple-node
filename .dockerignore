@@ -1,0 +1,3 @@
+#ignore files for ADD or COPY from this repo which are matching any one of the below pattern
+
+test-kubernetes/

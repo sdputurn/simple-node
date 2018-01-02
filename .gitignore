@@ -1,0 +1,4 @@
+#ignore files from this repo, who are matching any of the below patterns
+
+npm-debug.log
+
