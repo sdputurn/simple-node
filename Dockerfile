@@ -1,4 +1,5 @@
-FROM node:6.9.2
+FROM centos
+RUN yum install epel-release -y && yum install nodejs -y
 EXPOSE 8080
 COPY server.js .
 CMD node server.js
